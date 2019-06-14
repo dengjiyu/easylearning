@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" 
+ "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<!-- 配置实体类的别名 -->
+	<typeAliases>
+		<typeAlias type="top.easylearning.ssm.domain.User" alias="user"/>
+	</typeAliases>
+	<!-- 这里指的是你要简写的那个Bean的目录，别名就是类名,为了简便不在写 resultType="com.mybatis.test.User 
+	这样直接写resultType="User" -->
+</configuration>
